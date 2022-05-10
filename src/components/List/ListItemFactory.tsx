@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Rental } from "../../redux/features/rental/rentalApi";
+import Image from "../../components/Image/Image";
 
 const S = {
   Container: styled.div`
@@ -22,14 +23,12 @@ interface Props {
   rental: Rental;
 }
 
-// TODO: image rendering (Jakub Jirous 2022-05-10 16:15:30)
-// TODO: unit test (Jakub Jirous 2022-05-10 16:16:20)
 function ListItemFactory({ rental }: Props) {
   const { id, name, imageUrl } = rental;
 
   return (
     <S.Container key={id}>
-      Image
+      <Image src={imageUrl} alt={name} />
       <S.Name>{name}</S.Name>
     </S.Container>
   );

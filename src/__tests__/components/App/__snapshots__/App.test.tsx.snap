@@ -4,15 +4,29 @@ exports[`<App/> should render correctly 1`] = `
 <body>
   <div>
     <main
-      class="sc-bczRLJ imNYFp"
+      class="sc-iqcoie csstsu"
     >
       <div
-        class="sc-gsnTZi jkNJor"
+        class="sc-crXcEl hoGovd"
       >
-        Search 
-        <br />
-        List 
-        <br />
+        <header
+          class="sc-gKXOVf govFyv"
+        >
+          <div
+            class="sc-iBkjds hHOYEy"
+          />
+          <input
+            aria-label="Search"
+            class="sc-papXJ hkGDuL"
+            placeholder="Find the perfect RV"
+            value=""
+          />
+        </header>
+        <section
+          class="sc-jSMfEi cetSDR"
+        >
+          Loading...
+        </section>
       </div>
     </main>
   </div>

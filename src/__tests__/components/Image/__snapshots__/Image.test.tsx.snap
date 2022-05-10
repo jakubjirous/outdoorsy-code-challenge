@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image/> should render correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bczRLJ WCHmy"
+    >
+      Loading ...
+      <figure
+        class="sc-gsnTZi"
+      >
+        <img
+          alt="Avi"
+          aria-label="Avi"
+          class="sc-dkzDqf jAzbYA"
+          src="https://res.cloudinary.com/outdoorsy/image/upload/v1578298549/p/rentals/131280/images/ae9pnscbky1ozyhrbbtf.jpg"
+        />
+      </figure>
+    </div>
+  </div>
+</body>
+`;
