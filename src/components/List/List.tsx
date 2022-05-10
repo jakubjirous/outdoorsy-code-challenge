@@ -17,7 +17,7 @@ const S = {
 
 // TODO: loading (Jakub Jirous 2022-05-10 16:15:30)
 // TODO: no result (Jakub Jirous 2022-05-10 16:15:30)
-// TODO: unit test (Jakub Jirous 2022-05-10 16:16:20)
+// TODO: unit test (Jakub Jirous 2022-05-10 16:26:03)
 function List() {
   const keywords = useSelector((state: RootState) => state.search.keywords);
 

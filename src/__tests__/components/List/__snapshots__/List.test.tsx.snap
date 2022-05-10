@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List/> should render correctly 1`] = `
+<body>
+  <div>
+    <section
+      class="sc-iBkjds cqZBHO"
+    >
+      Loading...
+    </section>
+  </div>
+</body>
+`;

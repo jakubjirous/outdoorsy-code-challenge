@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from "react";
 import styled from "styled-components";
 import { pxToRem } from "../../utils/pxToRem";
+import { Skeleton } from "../Skeleton/Skeleton";
 
 export const IMAGE_WIDTH = 180;
 export const IMAGE_HEIGHT = 135;
@@ -17,6 +18,9 @@ const S = {
     object-fit: cover;
     object-position: center;
   `,
+  Skeleton: styled(Skeleton)`
+    position: absolute;
+  `,
 };
 
 interface Props {
@@ -24,8 +28,6 @@ interface Props {
   alt: string;
 }
 
-// TODO: unit test (Jakub Jirous 2022-05-10 16:17:49)
-// TODO: skeleton (Jakub Jirous 2022-05-10 16:17:51)
 function Image({ src, alt }: Props) {
   const [loading, setLoading] = useState<boolean>(true);
 
@@ -35,7 +37,9 @@ function Image({ src, alt }: Props) {
 
   return (
     <S.Wrapper>
-      {loading && <>Loading ...</>}
+      {loading && (
+        <S.Skeleton width={pxToRem(IMAGE_WIDTH)} height={pxToRem(IMAGE_HEIGHT)} data-testid="image-skeleton" />
+      )}
 
       <S.Figure>
         <S.Image src={src} alt={alt} aria-label={alt} onLoad={onLoad} onError={onLoad} />

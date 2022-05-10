@@ -4,16 +4,21 @@ exports[`<Image/> should render correctly 1`] = `
 <body>
   <div>
     <div
-      class="sc-bczRLJ WCHmy"
+      class="sc-gsnTZi imFFYY"
     >
-      Loading ...
+      <div
+        class="sc-bczRLJ sc-eCYdqJ kkcSEP hqtrLG"
+        data-testid="image-skeleton"
+        height="8.4375rem"
+        width="11.25rem"
+      />
       <figure
-        class="sc-gsnTZi"
+        class="sc-dkzDqf"
       >
         <img
           alt="Avi"
           aria-label="Avi"
-          class="sc-dkzDqf jAzbYA"
+          class="sc-hKMtZM pawej"
           src="https://res.cloudinary.com/outdoorsy/image/upload/v1578298549/p/rentals/131280/images/ae9pnscbky1ozyhrbbtf.jpg"
         />
       </figure>

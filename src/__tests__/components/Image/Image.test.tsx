@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { ComponentProps } from "react";
 import Image from "../../../components/Image/Image";
 
@@ -16,5 +16,17 @@ describe("<Image/>", () => {
     const { baseElement } = renderContainer(initialProps);
 
     expect(baseElement).toMatchSnapshot();
+  });
+
+  test("should render skeleton before loading image and then image", async () => {
+    renderContainer(initialProps);
+
+    expect(screen.getByTestId("image-skeleton")).toBeInTheDocument();
+
+    expect(
+      await screen.findByRole("img", {
+        name: /avi/i,
+      })
+    ).toBeInTheDocument();
   });
 });
