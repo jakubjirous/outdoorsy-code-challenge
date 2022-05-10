@@ -93,7 +93,7 @@ function Search() {
 
       setIsKeyReleased(false);
     },
-    [input, setInput, dispatch, isKeyReleased, setIsKeyReleased]
+    [keywords, input, setInput, dispatch, isKeyReleased, setIsKeyReleased]
   );
 
   const onKeyUp = useCallback(() => {
@@ -105,14 +105,14 @@ function Search() {
       const { value } = event.target;
       setInput(value);
     },
-    [input, setInput]
+    [setInput]
   );
 
   const onRemove = useCallback(
     (index: number) => () => {
       dispatch(removeKeyword(index));
     },
-    [dispatch, removeKeyword]
+    [dispatch]
   );
 
   return (

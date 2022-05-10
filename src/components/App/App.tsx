@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { deviceScreen, laptopMd, tablet } from "../../utils/responsive";
+import List from "../List/List";
 import Search from "../Search/Search";
 
 const S = {
@@ -33,7 +34,7 @@ function App() {
     <S.Main>
       <S.Container>
         <Search />
-        List <br />
+        <List />
       </S.Container>
     </S.Main>
   );
