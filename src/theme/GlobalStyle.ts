@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { Base } from "./Base";
 import { Palette } from "./Palette";
 import { Reset } from "./Reset";
 import { Typography } from "./Typography";
@@ -9,4 +10,5 @@ export const GlobalStyles = createGlobalStyle`
   ${Variables}
   ${Palette}
   ${Typography}
+  ${Base}
 `;
