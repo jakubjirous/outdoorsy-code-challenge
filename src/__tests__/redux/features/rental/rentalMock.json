@@ -1,0 +1,527 @@
+{
+  "data": [
+    {
+      "id": "131280",
+      "type": "rentals",
+      "attributes": {
+        "Explanation": null,
+        "active_options": {
+          "cancel_policy": "custom",
+          "cancel_policy_combo_bookings": "",
+          "date": "2022-05-09",
+          "instant_book": true,
+          "minimum_days": 4,
+          "monthly_discount_percentage": 23.2,
+          "monthly_rate_per_day": 4524,
+          "price_per_day": 5891,
+          "price_per_month": 126657,
+          "price_per_week": 41234,
+          "tax": 0,
+          "use_day_pricing": true,
+          "use_tax_inclusive_pricing": false,
+          "weekly_discount_percentage": 0,
+          "weekly_rate_per_day": 5891
+        },
+        "availability_set": false,
+        "average_ratings": null,
+        "average_reviews": null,
+        "cancel_policy": "custom",
+        "cancel_policy_combo_bookings": "",
+        "cancel_text": "Reservation deposit (50% of full trip cost) is non-refundable<BR>  \n\nIf the renter has paid in full and the booking is canceled more than 14 days prior to booking start date, a partial refund of 50% of the full rental amount (minus fees) is issued.<BR>  \n\nChange to reservation dates are allowed once, Changes must be made 21 days or more before your scheduled departure to ensure no loss of deposit.<BR>  \nSeasonal rates to the date of change will apply, Capped to the original total number of days reserved.<BR>  \n<STRONG>We strongly recommend trip and travel interruption insurance as an affordable way to mitigate any risks or trip disruption.</STRONG><BR>  \n\n<BR>  \nCOVID-19 Policy Amendments:<BR>   \nBookings that can be not be met due to travel restrictions, quarantine interference due to Covid-19 will receive full efforts to accommodate re-booking.<BR>   \nA full credit voucher can be issued if a schedule can not be found for any later date. Some fees may apply<BR>  \nWe’ll ask you to submit paperwork regarding the guidance orders requiring self-quarantine and/or other government restrictions on travel.<BR>  ",
+        "catalog": null,
+        "children_count": 0,
+        "coachnet_ready": true,
+        "coachnet_required": false,
+        "combined_special_hours": [],
+        "created": "2019-07-15T16:29:41.818978Z",
+        "current_location_id": 1671,
+        "custom_insurance_text": "",
+        "dealer": true,
+        "delivery": false,
+        "delivery_radius": 0,
+        "delivery_usage_item_id": 0,
+        "deposit_percentage": 0,
+        "description": "",
+        "description_included": "",
+        "description_other": "",
+        "description_recommendations": "",
+        "display_vehicle_type": "Truck Camper",
+        "distributed_ratings": null,
+        "education": [],
+        "external": false,
+        "favorite": false,
+        "favorite_count": 22,
+        "features": {
+          "air_conditioner": false,
+          "audio_inputs": false,
+          "awning": false,
+          "backup_camera": false,
+          "beds_bunk": null,
+          "beds_dinette_conversion": null,
+          "beds_fold_out_sofa": null,
+          "beds_full": null,
+          "beds_king": null,
+          "beds_other": null,
+          "beds_queen": null,
+          "beds_twin": null,
+          "bike_rack": false,
+          "brake_controller": false,
+          "burning_man_friendly": false,
+          "cd_player": false,
+          "ceiling_fan": false,
+          "connector_type": null,
+          "dining_table": false,
+          "extra_storage": false,
+          "festival_friendly": false,
+          "generator": false,
+          "gray_tank": null,
+          "handicap_accessible": false,
+          "heater": false,
+          "hitch_weight": null,
+          "hookup_electric": false,
+          "hookup_sewer": false,
+          "hookup_water": false,
+          "hot_water_tank": false,
+          "inside_shower": false,
+          "international_travel_allowed": false,
+          "inverter": false,
+          "kitchen_sink": false,
+          "leveling_jacks": false,
+          "microwave": false,
+          "minimum_age": null,
+          "mpg": null,
+          "one_way_rentals": false,
+          "outside_shower": false,
+          "oven": false,
+          "pet_friendly": false,
+          "propane_tank": null,
+          "provides_receivers": false,
+          "radio": false,
+          "refrigerator": false,
+          "satellite": false,
+          "sewage_tank": null,
+          "skylight": false,
+          "slide_outs": null,
+          "smoking_allowed": false,
+          "solar": false,
+          "stove": false,
+          "tailgate_friendly": false,
+          "toilet": false,
+          "tow_hitch": false,
+          "trailer_weight": null,
+          "tv_dvd": false,
+          "washer_dryer": false,
+          "water_tank": null,
+          "wifi": false
+        },
+        "first_published": "2019-08-04T00:54:40.13403Z",
+        "generator_usage_item_id": 0,
+        "group_on_map": false,
+        "group_reviews_num": 0,
+        "group_reviews_score": 0,
+        "group_score": 0,
+        "has_been_published": true,
+        "has_checkout_questions": true,
+        "hidden": false,
+        "house_rules": "We Try Our Best to Create Great Campers for Great Adventures. \nWe do need a few things from you to ensure our units stay awesome for the next.\n- Our Campers are strictly non-smoking.<BR> \n- Renters are restricted to Vancouver Island and the surrounding islands; Any exceptions must be approved in writing in advance. Fees may apply.<BR> \n- Renters are not permitted to take the vehicles Off Road without expressed approval. Examples of Off Road are:<BR> \n  \\ Areas where no road exists \n  \\ Unmaintained gravel roads\n  \\ Excessively muddy roads  \n  \\ Anywhere a vehicle could get stuck or damaged due to the conditions\nRenters are not permitted to tow trailers or other vehicles without written permission from LetsGo! Campers<BR>\n<BR>\nReservation documents and all terms of service are the renters responsibility to review. By accepting the rental the renter accepts to the condition of the vehicle and all terms provided on the sign off documents.\n<BR>\nFailure to follow road rules will result on the renter paying for all cost of, but not limited to:\nDamage/accidents caused while the vehicle is driven by unauthorized driver or driver under the influence of drugs or alcohol | Willful damage or modification | Damage incurred during illegal acts | Damages and accidents caused while vehicle driven by an unauthorized driver not listed on the rental contract. | Damage and accident caused while vehicle is driven outside of allowed areas without proper authorization \n<BR>\nPhewffff,    Now that that's out of the way...  \n\nAwesome times are ahead! Your going to have a great Trip! ",
+        "instant_book": true,
+        "instant_book_leeway": 2,
+        "insurance_coverage": "custom",
+        "insurance_eligible": true,
+        "insurance_plan": {
+          "id": 182,
+          "label": "Wheelbase BC Driving",
+          "renter_body": "",
+          "renter_headline": "",
+          "requires_driver_verification": false
+        },
+        "insurance_renter_adjustable": false,
+        "insurance_state": "approved",
+        "last_published": "2019-08-09T22:27:39.19857Z",
+        "listing_questions": [],
+        "locale": {
+          "base_currency": "CAD",
+          "distance_unit": "kilometers",
+          "length_unit": "feet",
+          "liquid_unit": "liters",
+          "weight_unit": "lbs"
+        },
+        "location": {
+          "city": "Nanaimo",
+          "country": "CA",
+          "county": "",
+          "lat": 49.192,
+          "lng": -123.953,
+          "state": "BC",
+          "zip": "V9S 4E6"
+        },
+        "mileage_usage_item_id": 0,
+        "minimum_days": 5,
+        "minimum_deposit": 0,
+        "name": "Avi",
+        "nearby_content": [],
+        "original_url": "",
+        "owner_score": 0.583,
+        "parent_id": 0,
+        "position": 2,
+        "preferred_primary_image": {
+          "amenity": null,
+          "best": false,
+          "category": null,
+          "description": "",
+          "position": 0,
+          "primary": false,
+          "rental_id": 0,
+          "review": null,
+          "skip_enhance": false,
+          "status": "",
+          "tags": "",
+          "url": "",
+          "video": false
+        },
+        "prep_fee": null,
+        "presentment_currency": "USD",
+        "price_per_day": 5891,
+        "price_per_month": 126657,
+        "price_per_week": 41234,
+        "primary_image_url": "https://res.cloudinary.com/outdoorsy/image/upload/v1578298549/p/rentals/131280/images/ae9pnscbky1ozyhrbbtf.jpg",
+        "pro": false,
+        "published": true,
+        "ranking": {
+          "distance_weight": {
+            "control": 0.35,
+            "test_1": 0.5,
+            "test_2": 0.35,
+            "test_3": 0.35
+          },
+          "distance_weight_prod": 0.35,
+          "is_new_listing": 0,
+          "model_name": "model_gbt_web_051021",
+          "original_score": 0,
+          "ranking_score": 0.1306,
+          "ranking_score2": 0.1673
+        },
+        "rental_score": 0.286,
+        "request_less_than_minimum_days": 14,
+        "review_scores": null,
+        "reviews_num": 0,
+        "score": 0,
+        "seatbelts": 2,
+        "security_deposit": 77000,
+        "seo_content": {
+          "category": [
+            {
+              "id": 199666,
+              "title": "Chevrolet RV rental by model",
+              "url": "https://www.outdoorsy.com/rv-makes-types/chevrolet-m"
+            },
+            {
+              "id": 199786,
+              "title": "Chevrolet Other RV rental (2)",
+              "url": "https://www.outdoorsy.com/rv-makes-types/chevrolet-m/other-2"
+            },
+            {
+              "id": 201011,
+              "title": "Chevrolet RV rental by year of production",
+              "url": "https://www.outdoorsy.com/rv-makes-types/chevrolet-y"
+            },
+            {
+              "id": 201167,
+              "title": "2002 Chevrolet RV rental",
+              "url": "https://www.outdoorsy.com/rv-makes-types/chevrolet-y/2002"
+            },
+            {
+              "id": 202494,
+              "title": "Truck Camper rental by location",
+              "url": "https://www.outdoorsy.com/rv-makes-types/truck-camper-rental"
+            },
+            {
+              "id": 203867,
+              "title": "Canada Truck Camper rental",
+              "url": "https://www.outdoorsy.com/rv-makes-types/truck-camper-rental/canada"
+            }
+          ]
+        },
+        "settlement_currency": "CAD",
+        "sleeps": 2,
+        "sleeps_adults": 0,
+        "sleeps_kids": 0,
+        "slug": "/rv-rental/nanaimo_bc_ca/2002_chevrolet_avalanche_131280-listing",
+        "smart_photo_score": 0,
+        "sort_score": 3.6308434,
+        "summary": "",
+        "tags": [],
+        "tax_rates": [
+          {
+            "id": 4639,
+            "rate": 5
+          }
+        ],
+        "type": "truck-camper",
+        "unavailable": false,
+        "updated": "2021-06-26T06:37:34.658749Z",
+        "use_day_pricing": true,
+        "use_tax_inclusive_pricing": false,
+        "user_slug": "letsgocampers",
+        "vehicle_amps": 0,
+        "vehicle_box_length": 0,
+        "vehicle_class": "",
+        "vehicle_dry_weight": 0,
+        "vehicle_gvwr": 0,
+        "vehicle_height": 0,
+        "vehicle_length": 14,
+        "vehicle_length_with_hitch": 0,
+        "vehicle_license_plate_state": "BC",
+        "vehicle_make": "Chevrolet",
+        "vehicle_model": "Avalanche",
+        "vehicle_title": "2002 Chevrolet Avalanche",
+        "vehicle_width": 0,
+        "vehicle_year": 2002
+      },
+      "relationships": {
+        "images": {
+          "data": [
+            {
+              "id": "1199006",
+              "type": "images"
+            },
+            {
+              "id": "1066728",
+              "type": "images"
+            },
+            {
+              "id": "1199005",
+              "type": "images"
+            },
+            {
+              "id": "1199004",
+              "type": "images"
+            },
+            {
+              "id": "1199003",
+              "type": "images"
+            }
+          ]
+        },
+        "owner": {
+          "data": {
+            "id": "322065",
+            "type": "users"
+          }
+        },
+        "primary_image": {
+          "data": {
+            "id": "1199006",
+            "type": "images"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "1199006",
+      "type": "images",
+      "attributes": {
+        "amenity": null,
+        "best": false,
+        "category": {
+          "name": "",
+          "slug": "other"
+        },
+        "description": "",
+        "position": 5,
+        "primary": true,
+        "rental_id": 131280,
+        "review": null,
+        "skip_enhance": false,
+        "status": "approved",
+        "tags": "",
+        "url": "https://res.cloudinary.com/outdoorsy/image/upload/v1578298549/p/rentals/131280/images/ae9pnscbky1ozyhrbbtf.jpg",
+        "video": false
+      }
+    },
+    {
+      "id": "1066728",
+      "type": "images",
+      "attributes": {
+        "amenity": null,
+        "best": false,
+        "category": {
+          "name": "",
+          "slug": "exterior"
+        },
+        "description": "",
+        "position": 1,
+        "primary": false,
+        "rental_id": 131280,
+        "review": null,
+        "skip_enhance": false,
+        "status": "approved",
+        "tags": "exterior",
+        "url": "https://res.cloudinary.com/outdoorsy/image/upload/v1564879965/p/rentals/131280/images/ngtun6jxqlmnsgyzp9on.jpg",
+        "video": false
+      }
+    },
+    {
+      "id": "1199005",
+      "type": "images",
+      "attributes": {
+        "amenity": null,
+        "best": false,
+        "category": {
+          "name": "",
+          "slug": "other"
+        },
+        "description": "",
+        "position": 2,
+        "primary": false,
+        "rental_id": 131280,
+        "review": null,
+        "skip_enhance": false,
+        "status": "approved",
+        "tags": "",
+        "url": "https://res.cloudinary.com/outdoorsy/image/upload/v1578298401/p/rentals/131280/images/tdhewmydsyfkfq6as9ye.jpg",
+        "video": false
+      }
+    },
+    {
+      "id": "1199004",
+      "type": "images",
+      "attributes": {
+        "amenity": null,
+        "best": false,
+        "category": {
+          "name": "",
+          "slug": "other"
+        },
+        "description": "",
+        "position": 3,
+        "primary": false,
+        "rental_id": 131280,
+        "review": null,
+        "skip_enhance": false,
+        "status": "approved",
+        "tags": "",
+        "url": "https://res.cloudinary.com/outdoorsy/image/upload/v1578298372/p/rentals/131280/images/jxvjcmeusqrzukmstfub.jpg",
+        "video": false
+      }
+    },
+    {
+      "id": "1199003",
+      "type": "images",
+      "attributes": {
+        "amenity": null,
+        "best": false,
+        "category": {
+          "name": "",
+          "slug": "other"
+        },
+        "description": "",
+        "position": 5,
+        "primary": false,
+        "rental_id": 131280,
+        "review": null,
+        "skip_enhance": false,
+        "status": "approved",
+        "tags": "",
+        "url": "https://res.cloudinary.com/outdoorsy/image/upload/v1578298251/p/rentals/131280/images/mtggghwxxdrk7n17nxpl.jpg",
+        "video": false
+      }
+    }
+  ],
+  "meta": {
+    "radius": 100,
+    "lat": 49.2958,
+    "lng": -123.141,
+    "city": "Vancouver",
+    "state": "BC",
+    "country": "CA",
+    "country_code": "CA",
+    "country_name": "Canada",
+    "total": 1,
+    "total_unavailable": 0,
+    "start_position": 1,
+    "stop_position": 1,
+    "price_max": 10200,
+    "price_min": 5891,
+    "price_average": 10200,
+    "price_median": 10200,
+    "price_histogram": {
+      "data": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      "max_value": 50000
+    },
+    "vehicle_types": [
+      {
+        "type": "utility-trailer",
+        "label": "Utility Trailer",
+        "style": "towable"
+      },
+      {
+        "type": "b",
+        "label": "Class B",
+        "style": "drivable"
+      },
+      {
+        "type": "c",
+        "label": "Class C",
+        "style": "drivable"
+      },
+      {
+        "type": "camper-van",
+        "label": "Camper Van",
+        "style": "drivable"
+      },
+      {
+        "type": "fifth-wheel",
+        "label": "Fifth-Wheel",
+        "style": "towable"
+      },
+      {
+        "type": "other",
+        "label": "Other",
+        "style": "both"
+      },
+      {
+        "type": "truck-camper",
+        "label": "Truck Camper",
+        "style": "drivable"
+      },
+      {
+        "type": "a",
+        "label": "Class A",
+        "style": "drivable"
+      },
+      {
+        "type": "folding-trailer",
+        "label": "Folding Trailer",
+        "style": "towable"
+      },
+      {
+        "type": "tow-vehicle",
+        "label": "Tow Vehicle",
+        "style": "drivable"
+      },
+      {
+        "type": "toy-hauler",
+        "label": "Toy Hauler",
+        "style": "towable"
+      },
+      {
+        "type": "trailer",
+        "label": "Travel Trailer",
+        "style": "towable"
+      }
+    ],
+    "locale": "en-us",
+    "suggested": false,
+    "experiments": {},
+    "experiments_data": {},
+    "request": {},
+    "FlexibleDates": null,
+    "is_blended": false
+  }
+}
