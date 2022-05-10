@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search/> should render correctly 1`] = `
+<body>
+  <div>
+    <header
+      class="sc-bczRLJ caFeCX"
+    >
+      <div
+        class="sc-gsnTZi fKrywy"
+      />
+      <input
+        aria-label="Search"
+        class="sc-hKMtZM ebRDGl"
+        placeholder="Find the perfect RV"
+        value=""
+      />
+    </header>
+  </div>
+</body>
+`;
