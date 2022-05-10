@@ -6,9 +6,9 @@ import { Typography } from "./Typography";
 import { Variables } from "./Variables";
 
 export const GlobalStyles = createGlobalStyle`
-  ${Reset}
-  ${Variables}
-  ${Palette}
-  ${Typography}
-  ${Base}
+  ${Reset};
+  ${Variables};
+  ${Palette};
+  ${Typography};
+  ${Base};
 `;
