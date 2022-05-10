@@ -5,6 +5,7 @@ import { FixedSizeList, ListChildComponentProps } from "react-window";
 import styled from "styled-components";
 import { useGetRentalQuery } from "../../redux/features/rental/rentalApi";
 import { RootState } from "../../redux/store";
+import Loading from "../Loading/Loading";
 import ListItemFactory from "./ListItemFactory";
 
 export const LIST_ITEM_SIZE = 166;
@@ -15,7 +16,6 @@ const S = {
   `,
 };
 
-// TODO: loading (Jakub Jirous 2022-05-10 16:15:30)
 // TODO: no result (Jakub Jirous 2022-05-10 16:15:30)
 // TODO: unit test (Jakub Jirous 2022-05-10 16:26:03)
 function List() {
@@ -34,7 +34,7 @@ function List() {
   return (
     <S.Section>
       {!rentals && isLoading ? (
-        <>Loading...</>
+        <Loading numberOfSkeletons={4} />
       ) : rentals?.length === 0 || error ? (
         <>No results ...</>
       ) : (

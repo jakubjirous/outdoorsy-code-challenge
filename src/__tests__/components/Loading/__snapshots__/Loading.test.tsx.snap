@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading/> should render correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-jSMfEi beGjEx"
+    >
+      <div
+        class="sc-gKXOVf gnvyZk"
+      >
+        <div
+          class="sc-bczRLJ kkcSEP"
+          height="8.4375rem"
+          width="11.25rem"
+        />
+        <div
+          class="sc-bczRLJ fNpSxG"
+          height="var(--fs-lg)"
+          width="50%"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

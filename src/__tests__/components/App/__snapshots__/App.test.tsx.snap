@@ -4,28 +4,87 @@ exports[`<App/> should render correctly 1`] = `
 <body>
   <div>
     <main
-      class="sc-evZas iRYcYh"
+      class="sc-ksZaOG zieht"
     >
       <div
-        class="sc-breuTD fRnHq"
+        class="sc-hAZoDl eqJRya"
       >
         <header
-          class="sc-ftvSup iWAiFq"
+          class="sc-jqUVSM krBlpm"
         >
           <div
-            class="sc-papXJ lhhCdc"
+            class="sc-kDDrLX gJOrma"
           />
           <input
             aria-label="Search"
-            class="sc-kDDrLX cAzyWB"
+            class="sc-crXcEl YkhZP"
             placeholder="Find the perfect RV"
             value=""
           />
         </header>
         <section
-          class="sc-iBkjds cqZBHO"
+          class="sc-papXJ hUHDjE"
         >
-          Loading...
+          <div
+            class="sc-jSMfEi beGjEx"
+          >
+            <div
+              class="sc-gKXOVf gnvyZk"
+            >
+              <div
+                class="sc-bczRLJ kkcSEP"
+                height="8.4375rem"
+                width="11.25rem"
+              />
+              <div
+                class="sc-bczRLJ fNpSxG"
+                height="var(--fs-lg)"
+                width="50%"
+              />
+            </div>
+            <div
+              class="sc-gKXOVf gnvyZk"
+            >
+              <div
+                class="sc-bczRLJ kkcSEP"
+                height="8.4375rem"
+                width="11.25rem"
+              />
+              <div
+                class="sc-bczRLJ fNpSxG"
+                height="var(--fs-lg)"
+                width="50%"
+              />
+            </div>
+            <div
+              class="sc-gKXOVf gnvyZk"
+            >
+              <div
+                class="sc-bczRLJ kkcSEP"
+                height="8.4375rem"
+                width="11.25rem"
+              />
+              <div
+                class="sc-bczRLJ fNpSxG"
+                height="var(--fs-lg)"
+                width="50%"
+              />
+            </div>
+            <div
+              class="sc-gKXOVf gnvyZk"
+            >
+              <div
+                class="sc-bczRLJ kkcSEP"
+                height="8.4375rem"
+                width="11.25rem"
+              />
+              <div
+                class="sc-bczRLJ fNpSxG"
+                height="var(--fs-lg)"
+                width="50%"
+              />
+            </div>
+          </div>
         </section>
       </div>
     </main>
