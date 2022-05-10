@@ -8,4 +8,18 @@ export const Base = css`
     line-height: var(--ln);
     color: var(--black);
   }
+
+  // Scroll Bar Tuning
+  &::-webkit-scrollbar {
+    width: var(--spacing-4);
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-tertiary);
+    border-radius: var(--br);
+  }
 `;
