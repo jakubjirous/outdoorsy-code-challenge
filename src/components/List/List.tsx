@@ -6,6 +6,7 @@ import styled from "styled-components";
 import { useGetRentalQuery } from "../../redux/features/rental/rentalApi";
 import { RootState } from "../../redux/store";
 import Loading from "../Loading/Loading";
+import NoResults from "../NoResults/NoResults";
 import ListItemFactory from "./ListItemFactory";
 
 export const LIST_ITEM_SIZE = 166;
@@ -16,8 +17,6 @@ const S = {
   `,
 };
 
-// TODO: no result (Jakub Jirous 2022-05-10 16:15:30)
-// TODO: unit test (Jakub Jirous 2022-05-10 16:26:03)
 function List() {
   const keywords = useSelector((state: RootState) => state.search.keywords);
 
@@ -36,7 +35,7 @@ function List() {
       {!rentals && isLoading ? (
         <Loading numberOfSkeletons={4} />
       ) : rentals?.length === 0 || error ? (
-        <>No results ...</>
+        <NoResults />
       ) : (
         <AutoSizer>
           {(size: Size) => (

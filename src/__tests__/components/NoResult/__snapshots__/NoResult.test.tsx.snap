@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoResults/> should render correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bczRLJ ifnEpg"
+    >
+      <p
+        class="sc-gsnTZi gjeoGl"
+      >
+        Hmm... We don't have anything available that matches your criteria. Try adjusting your search by changing your keywords.
+      </p>
+    </div>
+  </div>
+</body>
+`;
