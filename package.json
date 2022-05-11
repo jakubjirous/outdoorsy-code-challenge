@@ -2,7 +2,7 @@
   "name": "outdoorsy-code-challenge",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://jakubjirous.github.io",
+  "homepage": "https://jakubjirous.github.io/outdoorsy-code-challenge/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.14.1",
