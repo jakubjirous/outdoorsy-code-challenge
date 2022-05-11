@@ -109,3 +109,9 @@ would be based on the requirements of the final product.
 - Automation end-to-end testing (e.g. `Cypress`)
 - Offline Mode Support
 - `PWA`
+
+### Live Demo
+
+The result of the code challenge can be tested live here:
+
+- [jakubjirous.github.io/outdoorsy-code-challenge](https://jakubjirous.github.io/outdoorsy-code-challenge/)
