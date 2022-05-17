@@ -4,7 +4,7 @@ exports[`<List/> should render correctly 1`] = `
 <body>
   <div>
     <section
-      class="sc-kDDrLX hoqnsK"
+      class="sc-kDDrLX fZbxEL"
     >
       <div
         class="sc-jSMfEi beGjEx"
@@ -13,12 +13,12 @@ exports[`<List/> should render correctly 1`] = `
           class="sc-gKXOVf gnvyZk"
         >
           <div
-            class="sc-bczRLJ kkcSEP"
+            class="sc-bczRLJ hATIyy"
             height="8.4375rem"
             width="11.25rem"
           />
           <div
-            class="sc-bczRLJ fNpSxG"
+            class="sc-bczRLJ dZTAAT"
             height="var(--fs-lg)"
             width="50%"
           />
@@ -27,12 +27,12 @@ exports[`<List/> should render correctly 1`] = `
           class="sc-gKXOVf gnvyZk"
         >
           <div
-            class="sc-bczRLJ kkcSEP"
+            class="sc-bczRLJ hATIyy"
             height="8.4375rem"
             width="11.25rem"
           />
           <div
-            class="sc-bczRLJ fNpSxG"
+            class="sc-bczRLJ dZTAAT"
             height="var(--fs-lg)"
             width="50%"
           />
@@ -41,12 +41,12 @@ exports[`<List/> should render correctly 1`] = `
           class="sc-gKXOVf gnvyZk"
         >
           <div
-            class="sc-bczRLJ kkcSEP"
+            class="sc-bczRLJ hATIyy"
             height="8.4375rem"
             width="11.25rem"
           />
           <div
-            class="sc-bczRLJ fNpSxG"
+            class="sc-bczRLJ dZTAAT"
             height="var(--fs-lg)"
             width="50%"
           />
@@ -55,12 +55,12 @@ exports[`<List/> should render correctly 1`] = `
           class="sc-gKXOVf gnvyZk"
         >
           <div
-            class="sc-bczRLJ kkcSEP"
+            class="sc-bczRLJ hATIyy"
             height="8.4375rem"
             width="11.25rem"
           />
           <div
-            class="sc-bczRLJ fNpSxG"
+            class="sc-bczRLJ dZTAAT"
             height="var(--fs-lg)"
             width="50%"
           />

@@ -2,11 +2,13 @@ import { renderHook } from "@testing-library/react-hooks";
 import { enableFetchMocks } from "jest-fetch-mock";
 import { PropsWithChildren, ReactNode } from "react";
 import { Provider } from "react-redux";
-import { Rental, useGetRentalQuery } from "../../../../redux/features/rental/rentalApi";
+import { Query, Rental, useGetRentalQuery } from "../../../../redux/features/rental/rentalApi";
 import { getStore } from "../../../../redux/getStore";
 import * as rentalMock from "./rentalMock.json";
 
-const initialProps: string[] = ["test"];
+const initialProps: Query = {
+  keywords: ["test"],
+};
 
 const responseData: Rental[] = [
   {
@@ -17,8 +19,8 @@ const responseData: Rental[] = [
   },
 ];
 
-const renderContainer = (props: string[]) => {
-  return renderHook(() => useGetRentalQuery(props), {
+const renderContainer = (query: Query) => {
+  return renderHook(() => useGetRentalQuery(query), {
     wrapper: ({ children }: Partial<PropsWithChildren<ReactNode>>) => {
       return <Provider store={getStore()}>{children}</Provider>;
     },
@@ -49,7 +51,7 @@ describe("rentalApi", () => {
       const nextResponse = result.current;
 
       expect(nextResponse.data).toBeDefined();
-      expect(nextResponse.data).toEqual(responseData);
+      expect(nextResponse.data).toStrictEqual(responseData);
       expect(nextResponse.isLoading).toBeFalsy();
       expect(nextResponse.isFetching).toBeFalsy();
       expect(nextResponse.isSuccess).toBeTruthy();
