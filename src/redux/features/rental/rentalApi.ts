@@ -72,7 +72,7 @@ const isResponseValid = (response: unknown): response is RentalResponse => {
         isString(data.id) &&
         isDefined(data.attributes) &&
         isObject(data.attributes) &&
-        hasObjectProperty(data.attributes, "name1") &&
+        hasObjectProperty(data.attributes, "name") &&
         hasObjectProperty(data.attributes, "primary_image_url") &&
         isString(data.attributes.name) &&
         isString(data.attributes.primary_image_url)
