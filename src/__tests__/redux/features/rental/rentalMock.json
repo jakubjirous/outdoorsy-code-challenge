@@ -8,26 +8,26 @@
         "active_options": {
           "cancel_policy": "custom",
           "cancel_policy_combo_bookings": "",
-          "date": "2022-05-09",
+          "date": "2022-05-16",
           "instant_book": true,
           "minimum_days": 4,
-          "monthly_discount_percentage": 23.2,
-          "monthly_rate_per_day": 4524,
-          "price_per_day": 5891,
-          "price_per_month": 126657,
-          "price_per_week": 41234,
+          "monthly_discount_percentage": 20.7,
+          "monthly_rate_per_day": 4732,
+          "price_per_day": 5967,
+          "price_per_month": 132479,
+          "price_per_week": 41769,
           "tax": 0,
           "use_day_pricing": true,
           "use_tax_inclusive_pricing": false,
           "weekly_discount_percentage": 0,
-          "weekly_rate_per_day": 5891
+          "weekly_rate_per_day": 5967
         },
         "availability_set": false,
         "average_ratings": null,
         "average_reviews": null,
         "cancel_policy": "custom",
         "cancel_policy_combo_bookings": "",
-        "cancel_text": "Reservation deposit (50% of full trip cost) is non-refundable<BR>  \n\nIf the renter has paid in full and the booking is canceled more than 14 days prior to booking start date, a partial refund of 50% of the full rental amount (minus fees) is issued.<BR>  \n\nChange to reservation dates are allowed once, Changes must be made 21 days or more before your scheduled departure to ensure no loss of deposit.<BR>  \nSeasonal rates to the date of change will apply, Capped to the original total number of days reserved.<BR>  \n<STRONG>We strongly recommend trip and travel interruption insurance as an affordable way to mitigate any risks or trip disruption.</STRONG><BR>  \n\n<BR>  \nCOVID-19 Policy Amendments:<BR>   \nBookings that can be not be met due to travel restrictions, quarantine interference due to Covid-19 will receive full efforts to accommodate re-booking.<BR>   \nA full credit voucher can be issued if a schedule can not be found for any later date. Some fees may apply<BR>  \nWe’ll ask you to submit paperwork regarding the guidance orders requiring self-quarantine and/or other government restrictions on travel.<BR>  ",
+        "cancel_text": "Reservation deposit (50% of full trip cost) is non-refundable\u003cBR\u003e  \n\nIf the renter has paid in full and the booking is canceled more than 14 days prior to booking start date, a partial refund of 50% of the full rental amount (minus fees) is issued.\u003cBR\u003e  \n\nChange to reservation dates are allowed once, Changes must be made 21 days or more before your scheduled departure to ensure no loss of deposit.\u003cBR\u003e  \nSeasonal rates to the date of change will apply, Capped to the original total number of days reserved.\u003cBR\u003e  \n\u003cSTRONG\u003eWe strongly recommend trip and travel interruption insurance as an affordable way to mitigate any risks or trip disruption.\u003c/STRONG\u003e\u003cBR\u003e  \n\n\u003cBR\u003e  \nCOVID-19 Policy Amendments:\u003cBR\u003e   \nBookings that can be not be met due to travel restrictions, quarantine interference due to Covid-19 will receive full efforts to accommodate re-booking.\u003cBR\u003e   \nA full credit voucher can be issued if a schedule can not be found for any later date. Some fees may apply\u003cBR\u003e  \nWe’ll ask you to submit paperwork regarding the guidance orders requiring self-quarantine and/or other government restrictions on travel.\u003cBR\u003e  ",
         "catalog": null,
         "children_count": 0,
         "coachnet_ready": true,
@@ -123,7 +123,7 @@
         "has_been_published": true,
         "has_checkout_questions": true,
         "hidden": false,
-        "house_rules": "We Try Our Best to Create Great Campers for Great Adventures. \nWe do need a few things from you to ensure our units stay awesome for the next.\n- Our Campers are strictly non-smoking.<BR> \n- Renters are restricted to Vancouver Island and the surrounding islands; Any exceptions must be approved in writing in advance. Fees may apply.<BR> \n- Renters are not permitted to take the vehicles Off Road without expressed approval. Examples of Off Road are:<BR> \n  \\ Areas where no road exists \n  \\ Unmaintained gravel roads\n  \\ Excessively muddy roads  \n  \\ Anywhere a vehicle could get stuck or damaged due to the conditions\nRenters are not permitted to tow trailers or other vehicles without written permission from LetsGo! Campers<BR>\n<BR>\nReservation documents and all terms of service are the renters responsibility to review. By accepting the rental the renter accepts to the condition of the vehicle and all terms provided on the sign off documents.\n<BR>\nFailure to follow road rules will result on the renter paying for all cost of, but not limited to:\nDamage/accidents caused while the vehicle is driven by unauthorized driver or driver under the influence of drugs or alcohol | Willful damage or modification | Damage incurred during illegal acts | Damages and accidents caused while vehicle driven by an unauthorized driver not listed on the rental contract. | Damage and accident caused while vehicle is driven outside of allowed areas without proper authorization \n<BR>\nPhewffff,    Now that that's out of the way...  \n\nAwesome times are ahead! Your going to have a great Trip! ",
+        "house_rules": "We Try Our Best to Create Great Campers for Great Adventures. \nWe do need a few things from you to ensure our units stay awesome for the next.\n- Our Campers are strictly non-smoking.\u003cBR\u003e \n- Renters are restricted to Vancouver Island and the surrounding islands; Any exceptions must be approved in writing in advance. Fees may apply.\u003cBR\u003e \n- Renters are not permitted to take the vehicles Off Road without expressed approval. Examples of Off Road are:\u003cBR\u003e \n  \\ Areas where no road exists \n  \\ Unmaintained gravel roads\n  \\ Excessively muddy roads  \n  \\ Anywhere a vehicle could get stuck or damaged due to the conditions\nRenters are not permitted to tow trailers or other vehicles without written permission from LetsGo! Campers\u003cBR\u003e\n\u003cBR\u003e\nReservation documents and all terms of service are the renters responsibility to review. By accepting the rental the renter accepts to the condition of the vehicle and all terms provided on the sign off documents.\n\u003cBR\u003e\nFailure to follow road rules will result on the renter paying for all cost of, but not limited to:\nDamage/accidents caused while the vehicle is driven by unauthorized driver or driver under the influence of drugs or alcohol | Willful damage or modification | Damage incurred during illegal acts | Damages and accidents caused while vehicle driven by an unauthorized driver not listed on the rental contract. | Damage and accident caused while vehicle is driven outside of allowed areas without proper authorization \n\u003cBR\u003e\nPhewffff,    Now that that's out of the way...  \n\nAwesome times are ahead! Your going to have a great Trip! ",
         "instant_book": true,
         "instant_book_leeway": 2,
         "insurance_coverage": "custom",
@@ -181,9 +181,9 @@
         },
         "prep_fee": null,
         "presentment_currency": "USD",
-        "price_per_day": 5891,
-        "price_per_month": 126657,
-        "price_per_week": 41234,
+        "price_per_day": 5967,
+        "price_per_month": 132479,
+        "price_per_week": 41769,
         "primary_image_url": "https://res.cloudinary.com/outdoorsy/image/upload/v1578298549/p/rentals/131280/images/ae9pnscbky1ozyhrbbtf.jpg",
         "pro": false,
         "published": true,
@@ -197,9 +197,9 @@
           "distance_weight_prod": 0.35,
           "is_new_listing": 0,
           "model_name": "model_gbt_web_051021",
-          "original_score": 0,
-          "ranking_score": 0.1306,
-          "ranking_score2": 0.1673
+          "original_score": 0.131,
+          "ranking_score": 0.1297,
+          "ranking_score2": 0.1564
         },
         "rental_score": 0.286,
         "request_less_than_minimum_days": 14,
@@ -207,7 +207,7 @@
         "reviews_num": 0,
         "score": 0,
         "seatbelts": 2,
-        "security_deposit": 77000,
+        "security_deposit": 78000,
         "seo_content": {
           "category": [
             {
@@ -248,7 +248,7 @@
         "sleeps_kids": 0,
         "slug": "/rv-rental/nanaimo_bc_ca/2002_chevrolet_avalanche_131280-listing",
         "smart_photo_score": 0,
-        "sort_score": 3.6308434,
+        "sort_score": 3.6282737,
         "summary": "",
         "tags": [],
         "tax_rates": [
@@ -444,21 +444,70 @@
     "start_position": 1,
     "stop_position": 1,
     "price_max": 10200,
-    "price_min": 5891,
+    "price_min": 5967,
     "price_average": 10200,
     "price_median": 10200,
     "price_histogram": {
       "data": [
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "max_value": 50000
     },
     "vehicle_types": [
       {
-        "type": "utility-trailer",
-        "label": "Utility Trailer",
-        "style": "towable"
+        "type": "a",
+        "label": "Class A",
+        "style": "drivable"
       },
       {
         "type": "b",
@@ -471,29 +520,9 @@
         "style": "drivable"
       },
       {
-        "type": "camper-van",
-        "label": "Camper Van",
-        "style": "drivable"
-      },
-      {
         "type": "fifth-wheel",
         "label": "Fifth-Wheel",
         "style": "towable"
-      },
-      {
-        "type": "other",
-        "label": "Other",
-        "style": "both"
-      },
-      {
-        "type": "truck-camper",
-        "label": "Truck Camper",
-        "style": "drivable"
-      },
-      {
-        "type": "a",
-        "label": "Class A",
-        "style": "drivable"
       },
       {
         "type": "folding-trailer",
@@ -506,14 +535,34 @@
         "style": "drivable"
       },
       {
+        "type": "trailer",
+        "label": "Travel Trailer",
+        "style": "towable"
+      },
+      {
+        "type": "utility-trailer",
+        "label": "Utility Trailer",
+        "style": "towable"
+      },
+      {
+        "type": "camper-van",
+        "label": "Camper Van",
+        "style": "drivable"
+      },
+      {
+        "type": "other",
+        "label": "Other",
+        "style": "both"
+      },
+      {
         "type": "toy-hauler",
         "label": "Toy Hauler",
         "style": "towable"
       },
       {
-        "type": "trailer",
-        "label": "Travel Trailer",
-        "style": "towable"
+        "type": "truck-camper",
+        "label": "Truck Camper",
+        "style": "drivable"
       }
     ],
     "locale": "en-us",

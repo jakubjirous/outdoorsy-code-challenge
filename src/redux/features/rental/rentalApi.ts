@@ -1,4 +1,10 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react";
+import { hasObjectProperty, isArray, isDefined, isObject, isString } from "../../../utils/typeGuards";
+
+export interface Query {
+  keywords: string[];
+  pageOffset?: number;
+}
 
 export interface Rental {
   id: number;
@@ -7,13 +13,17 @@ export interface Rental {
 }
 
 export interface RentalResponse {
-  data: {
-    id: number;
-    attributes: {
-      name: string;
-      primary_image_url: string;
-    };
-  }[];
+  data: RentalResponseData[];
+}
+
+export interface RentalResponseData {
+  id: string;
+  attributes: RentalResponseAttributes;
+}
+
+export interface RentalResponseAttributes {
+  name: string;
+  primary_image_url: string;
 }
 
 /**
@@ -25,20 +35,51 @@ export const rentalApi = createApi({
     baseUrl: process.env.REACT_APP_BASE_URL,
   }),
   endpoints: (builder) => ({
-    getRental: builder.query<Rental[], string[]>({
-      query: (keywords) => `rentals?filter[keywords]=${keywords.join(",")}`,
+    getRental: builder.query<Rental[], Query>({
+      query: (query) => `rentals?filter[keywords]=${query.keywords.join(",")}&page[offset]=${query?.pageOffset}`,
       transformResponse: (response: RentalResponse) => {
-        return response.data.map((data) => {
-          return {
-            id: Number(data.id),
-            name: data.attributes.name,
-            imageUrl: data.attributes.primary_image_url,
-          };
-        });
+        if (isResponseValid(response)) {
+          return response.data.map((data) => {
+            return {
+              id: Number(data.id),
+              name: data.attributes.name,
+              imageUrl: data.attributes.primary_image_url,
+            };
+          });
+        } else {
+          throw new Error("Server response is not equal to RentalResponse");
+        }
       },
     }),
   }),
 });
+
+/**
+ * Type guards for response validation
+ */
+const isResponseValid = (response: unknown): response is RentalResponse => {
+  return (
+    isDefined(response) &&
+    hasObjectProperty(response, "data") &&
+    isDefined((response as RentalResponse).data) &&
+    isArray((response as RentalResponse).data) &&
+    (response as RentalResponse).data.every((data) => {
+      return (
+        isDefined(data) &&
+        hasObjectProperty(data, "id") &&
+        hasObjectProperty(data, "attributes") &&
+        isDefined(data.id) &&
+        isString(data.id) &&
+        isDefined(data.attributes) &&
+        isObject(data.attributes) &&
+        hasObjectProperty(data.attributes, "name1") &&
+        hasObjectProperty(data.attributes, "primary_image_url") &&
+        isString(data.attributes.name) &&
+        isString(data.attributes.primary_image_url)
+      );
+    })
+  );
+};
 
 // Export hooks for usage in functional components, which are auto-generated based on the defined endpoints
 export const { useGetRentalQuery } = rentalApi;

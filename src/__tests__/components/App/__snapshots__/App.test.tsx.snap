@@ -4,26 +4,26 @@ exports[`<App/> should render correctly 1`] = `
 <body>
   <div>
     <main
-      class="sc-fnykZs kZQnDt"
+      class="sc-fEOsli bjUOts"
     >
       <div
-        class="sc-fEOsli bOZDrA"
+        class="sc-bjUoiL hSWJwl"
       >
         <header
-          class="sc-iqcoie ecQBOM"
+          class="sc-crXcEl cFwuwv"
         >
           <div
-            class="sc-crXcEl hldPrQ"
+            class="sc-evZas jZsTWM"
           />
           <input
             aria-label="Search"
-            class="sc-breuTD lbMCbs"
+            class="sc-ksZaOG kMPKML"
             placeholder="Find the perfect RV"
             value=""
           />
         </header>
         <section
-          class="sc-kDDrLX hoqnsK"
+          class="sc-kDDrLX fZbxEL"
         >
           <div
             class="sc-jSMfEi beGjEx"
@@ -32,12 +32,12 @@ exports[`<App/> should render correctly 1`] = `
               class="sc-gKXOVf gnvyZk"
             >
               <div
-                class="sc-bczRLJ kkcSEP"
+                class="sc-bczRLJ hATIyy"
                 height="8.4375rem"
                 width="11.25rem"
               />
               <div
-                class="sc-bczRLJ fNpSxG"
+                class="sc-bczRLJ dZTAAT"
                 height="var(--fs-lg)"
                 width="50%"
               />
@@ -46,12 +46,12 @@ exports[`<App/> should render correctly 1`] = `
               class="sc-gKXOVf gnvyZk"
             >
               <div
-                class="sc-bczRLJ kkcSEP"
+                class="sc-bczRLJ hATIyy"
                 height="8.4375rem"
                 width="11.25rem"
               />
               <div
-                class="sc-bczRLJ fNpSxG"
+                class="sc-bczRLJ dZTAAT"
                 height="var(--fs-lg)"
                 width="50%"
               />
@@ -60,12 +60,12 @@ exports[`<App/> should render correctly 1`] = `
               class="sc-gKXOVf gnvyZk"
             >
               <div
-                class="sc-bczRLJ kkcSEP"
+                class="sc-bczRLJ hATIyy"
                 height="8.4375rem"
                 width="11.25rem"
               />
               <div
-                class="sc-bczRLJ fNpSxG"
+                class="sc-bczRLJ dZTAAT"
                 height="var(--fs-lg)"
                 width="50%"
               />
@@ -74,12 +74,12 @@ exports[`<App/> should render correctly 1`] = `
               class="sc-gKXOVf gnvyZk"
             >
               <div
-                class="sc-bczRLJ kkcSEP"
+                class="sc-bczRLJ hATIyy"
                 height="8.4375rem"
                 width="11.25rem"
               />
               <div
-                class="sc-bczRLJ fNpSxG"
+                class="sc-bczRLJ dZTAAT"
                 height="var(--fs-lg)"
                 width="50%"
               />
