@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react";
-import { hasObjectProperty, isArray, isDefined, isObject, isString } from "../../../utils/typeGuards";
+import { isResponseValid } from "./isResponseValid";
 
 export interface Query {
   keywords: string[];
@@ -37,7 +37,16 @@ export const rentalApi = createApi({
   endpoints: (builder) => ({
     getRental: builder.query<Rental[], Query>({
       query: (query) => `rentals?filter[keywords]=${query.keywords.join(",")}&page[offset]=${query?.pageOffset}`,
-      transformResponse: (response: RentalResponse) => {
+
+      /**
+       * There are several ways to validate an API response:
+       *
+       * 1) Manual testing - isResponseValid()
+       * 2) JSON schema validator - isJsonValidBySchema()
+       * 3) TypeScript runtime - RuntimeRentalResponse.decode()
+       */
+      transformResponse: (response: unknown) => {
+        // 1) Manual testing
         if (isResponseValid(response)) {
           return response.data.map((data) => {
             return {
@@ -49,37 +58,45 @@ export const rentalApi = createApi({
         } else {
           throw new Error("Server response is not equal to RentalResponse");
         }
+
+        /*
+        // 2) JSON schema validator
+        if (isJsonValidBySchema(response, rentalResponseSchema)) {
+          return (response as RentalResponse).data.map((data) => {
+            return {
+              id: Number(data.id),
+              name: data.attributes.name,
+              imageUrl: data.attributes.primary_image_url,
+            };
+          });
+        } else {
+          throw new Error("Server response is not equal to RentalResponse");
+        }
+        */
+
+        /*
+        // 3)
+        // Decode i.e. validate the API response
+        const result = RuntimeRentalResponse.decode(response);
+        if (isRight(result)) {
+          return (response as RentalResponse).data.map((data) => {
+            return {
+              id: Number(data.id),
+              name: data.attributes.name,
+              imageUrl: data.attributes.primary_image_url,
+            };
+          });
+        } else {
+          // tslint:disable-next-line:no-console
+          console.warn(PathReporter.report(result));
+
+          throw new Error("Server response is not equal to RentalResponse");
+        }
+      */
       },
     }),
   }),
 });
-
-/**
- * Type guards for response validation
- */
-const isResponseValid = (response: unknown): response is RentalResponse => {
-  return (
-    isDefined(response) &&
-    hasObjectProperty(response, "data") &&
-    isDefined((response as RentalResponse).data) &&
-    isArray((response as RentalResponse).data) &&
-    (response as RentalResponse).data.every((data) => {
-      return (
-        isDefined(data) &&
-        hasObjectProperty(data, "id") &&
-        hasObjectProperty(data, "attributes") &&
-        isDefined(data.id) &&
-        isString(data.id) &&
-        isDefined(data.attributes) &&
-        isObject(data.attributes) &&
-        hasObjectProperty(data.attributes, "name1") &&
-        hasObjectProperty(data.attributes, "primary_image_url") &&
-        isString(data.attributes.name) &&
-        isString(data.attributes.primary_image_url)
-      );
-    })
-  );
-};
 
 // Export hooks for usage in functional components, which are auto-generated based on the defined endpoints
 export const { useGetRentalQuery } = rentalApi;
