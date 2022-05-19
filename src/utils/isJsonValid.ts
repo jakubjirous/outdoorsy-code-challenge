@@ -1,13 +1,12 @@
 import Ajv, { AnySchema } from "ajv";
 
-const ajv = new Ajv();
-
 /**
  * JSON schema validator by specific schema using avj
  * @param json - typically API response
  * @param schema - avj schema
  */
 function isJsonValidBySchema(json: unknown, schema: AnySchema): boolean {
+  const ajv = new Ajv();
   const validate = ajv.compile(schema);
   const result = validate(json);
 

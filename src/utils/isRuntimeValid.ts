@@ -6,7 +6,7 @@ import * as t from "io-ts";
 export const RuntimeRentalResponse = t.type({
   data: t.readonlyArray(
     t.type({
-      id2: t.string,
+      id: t.string,
       attributes: t.type({
         name: t.string,
         primary_image_url: t.string,
